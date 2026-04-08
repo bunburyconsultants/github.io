@@ -5,43 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bunbury Consultants LLC</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .header-image {
-            width: 100%;
-            height: 300px;
-            /* This pulls a random high-quality 'Cybersecurity' image from Unsplash */
-            background: url('https://source.unsplash.com/featured/?cybersecurity,network') no-repeat center center;
-            background-size: cover;
-        }
-        .content {
-            max-width: 800px;
-            padding: 50px 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            color: #555;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 0.9rem;
-            color: #888;
-        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f4f4f9; color: #333; display: flex; flex-direction: column; align-items: center; }
+        .header-image { width: 100%; height: 300px; background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80') no-repeat center center; background-size: cover; }
+        .content { max-width: 800px; padding: 40px 20px; text-align: center; }
+        h1 { color: #2c3e50; margin-bottom: 5px; }
+        .subtitle { font-style: italic; color: #7f8c8d; margin-bottom: 30px; }
+        .bio-section { text-align: left; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h3 { color: #2c3e50; border-bottom: 2px solid #3498db; display: inline-block; padding-bottom: 5px; }
+        ul { line-height: 1.8; }
+        .footer { margin-top: 50px; font-size: 0.8rem; color: #aaa; }
     </style>
 </head>
 <body>
@@ -50,10 +22,24 @@
 
     <div class="content">
         <h1>Bunbury Consultants LLC</h1>
-        <p>Expertise in <strong>Cybersecurity Advisory</strong> & <strong>Human Factors Research</strong>.</p>
-        <p>Led by a Doctoral Researcher specializing in Information Security and Data Privacy.</p>
-        <hr style="width: 50%; margin: 30px auto; border: 0; border-top: 1px solid #ccc;">
-        <p><i>We're upgrading our service offerings. Visit us again by Summer 2026 for the new services packages!</i></p>
+        <div class="subtitle">Cybersecurity Advisory & Human Factors Research</div>
+        
+        <div class="bio-section">
+            <h3>About the Firm</h3>
+            <p>Bunbury Consultants LLC provides specialized advisory services at the intersection of <strong>Data Privacy</strong> and <strong>Human Factors</strong>. We help organizations navigate the complexities of information security by focusing on the most critical element: the human user.</p>
+            
+            <h3>Our Leadership</h3>
+            <p>Our principal consultant is a <strong>Doctoral Researcher</strong> in Information Technology specializing in Information Security. With a background in professional education and a suite of industry-standard certifications (CISSP, CASP+, PenTest+, Security+), we bring a unique pedagogical approach to technical security challenges.</p>
+            
+            <h3>Research Focus</h3>
+            <ul>
+                <li>Privacy Fatigue & User Design Patterns</li>
+                <li>Human Factors in Cyber Defense</li>
+                <li>Educational Technology Security Architectures</li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 30px;">Contact: <a href="mailto:info@bunburyconsultants.io" style="color: #3498db; text-decoration: none;">info@bunburyconsultants.io</a></p>
         
         <div class="footer">
             &copy; 2026 Bunbury Consultants LLC | Virginia, USA
